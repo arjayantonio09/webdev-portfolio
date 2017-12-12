@@ -1,0 +1,25 @@
+/* Extra small devices Phones (<768px)  */
+
+/* Small devices Tablets (≥768px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+/* Medium devices Desktops (≥992px)  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+/* Large devices Desktops (≥1200px)  */
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
