@@ -1,25 +1,154 @@
-/* Extra small devices Phones (<768px)  */
-
-/* Small devices Tablets (≥768px) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.container {
-		width: 90%;
-		margin: 0 auto;
-	}
+@font-face {
+	font-family: league;
+	src: url('../fonts/leaguespartan-bold.ttf');
 }
 
-/* Medium devices Desktops (≥992px)  */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.container {
-		width: 80%;
-		margin: 0 auto;
-	}
+body {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: league;
+	color: #4a4a4a;
+	text-align: center;
+	
 }
 
-/* Large devices Desktops (≥1200px)  */
-@media only screen and (min-width: 1200px) {
-	.container {
-		width: 60%;
-		margin: 0 auto;
-	}
+h1 {
+	color: #fff;
+	font-size: 60px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	margin-bottom: 5px;
+	font-size: 30px; 
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 25px;
+	margin: 5px 0px 20px;
+	color: black;
+	color: #fff;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 15px;
+	font-family: league;
+	background-color: #f06047;
+	color: #fff;
+	border: none;
+	letter-spacing: 1px;
+}
+
+span {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #b4978b;
+	letter-spacing: 3px;
+}
+
+.header {
+	text-align: left;
+	top: 150px;
+	left: 10%;
+	position: absolute;
+}
+
+section {
+	width: 100%;
+}
+
+.sec1 {
+	height: 80vh;
+	background-color: #0c2a34;
+	position: relative;
+	overflow: hidden;
+}
+
+.sec2 {
+	position: relative;
+}
+
+.sec2:before {
+	content: '';
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: -48px;
+	left: 0;
+	background: #fff;
+	transform: skewY(4deg);
+}
+
+.sec2:after {
+	content: '';
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	top: -48px;
+	right: 0;
+	background: #fff;
+	transform: skewY(-4deg);
+}
+
+.background {
+	width: 100%;
+}
+
+.vertical-line {
+	width: 2px;
+	height: 1300px;
+	background-color: #f3f3f3;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	box-shadow: 1px 1px 1px #f3f3f3;
+}
+
+.container {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.capstone {
+	width: 90%;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px #77777c;
+	padding: 20px;
+}
+
+.capstone1 {
+	width: 100%;
+	min-height: 400px;
+}
+
+.footer {
+	width: 60%;
+	margin: 1300px auto 0px;
+	height: 500px;
+	text-align: center;
+}
+
+.avatar {
+	margin-top: 30px;
+	width: 250px;
+}
+
+h4 {
+	margin: 25px 0px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+.col {
+	padding: 50px;
 }
